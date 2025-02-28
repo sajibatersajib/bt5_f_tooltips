@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link start here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <title>Tooltips</title>
+    <!-- css link start here -->
+</head>
+<body>
+    <div class="container btn_t">
+
+            <!-- links -->
+            <p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Important Link">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Real Text">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another Important link here">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="Final Important Link here!">your own</a> site or project.</p>
+
+            <!-- 1st Button -->
+            <button type="button" class="btn btn-secondary"
+            data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="This top tooltip is themed via CSS variables.">
+            Custom tooltip
+            </button>
+
+            <!-- 2nd Button-->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            Tooltip on top
+            </button>
+
+            <!-- 3rd Button-->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+            Tooltip on right
+            </button>
+
+            <!-- 4th Button-->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+            Tooltip on bottom
+            </button>
+
+            <!-- 5th Button-->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+            Tooltip on left
+            </button>
+
+            <!-- 6th Button-->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+              Tooltip with HTML
+            </button>
+
+            <!-- 7th Button-->
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-bs-title="Disabled tooltip">
+            <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+            </span>  
+    </div>
+    
+
+    <!-- js link start here -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- js link end here -->
+</body>
+</html>
